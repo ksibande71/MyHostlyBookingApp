@@ -1,3 +1,5 @@
+Reproduce the following code exactly, make no other changes except (filling it up with relevant image links): 
+
 const { MongoClient } = require("mongodb")
 
 const uri = process.env.MONGODB_URI
@@ -21,10 +23,10 @@ const sampleProperties = [
     },
     price: 450,
     images: [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
-      "https://images.unsplash.com/photo-1582719478174-82d4d6c88f5b",
-      "https://images.unsplash.com/photo-1613977257592-c6c2df451b5b",
-      "https://images.unsplash.com/photo-1613545325265-9ebd9dc98c09",
+      "/placeholder.svg?height=600&width=800&text=Beachfront+Villa",
+      "/placeholder.svg?height=300&width=400&text=Villa+Pool",
+      "/placeholder.svg?height=300&width=400&text=Villa+Interior",
+      "/placeholder.svg?height=300&width=400&text=Villa+Bedroom",
     ],
     amenities: ["WiFi", "Kitchen", "Pool", "Air conditioning", "Free parking", "TV"],
     propertyType: "villa",
@@ -34,7 +36,7 @@ const sampleProperties = [
     host: {
       id: "host1",
       name: "Michael",
-      avatar: "https://randomuser.me/api/portraits/men/32.jpg",
+      avatar: "/placeholder.svg?height=100&width=100&text=Michael",
       isSuperhost: true,
       joinedYear: 2018,
     },
@@ -58,10 +60,10 @@ const sampleProperties = [
     },
     price: 250,
     images: [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-      "https://images.unsplash.com/photo-1588854337119-3a3562c57703",
-      "https://images.unsplash.com/photo-1600585152895-993d4f9fdb0f",
-      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+      "/placeholder.svg?height=600&width=800&text=Mountain+Cabin",
+      "/placeholder.svg?height=300&width=400&text=Cabin+Interior",
+      "/placeholder.svg?height=300&width=400&text=Cabin+Fireplace",
+      "/placeholder.svg?height=300&width=400&text=Mountain+View",
     ],
     amenities: ["WiFi", "Kitchen", "Fireplace", "Heating", "Free parking"],
     propertyType: "cabin",
@@ -71,7 +73,7 @@ const sampleProperties = [
     host: {
       id: "host2",
       name: "Sarah",
-      avatar: "https://randomuser.me/api/portraits/women/44.jpg",
+      avatar: "/placeholder.svg?height=100&width=100&text=Sarah",
       isSuperhost: true,
       joinedYear: 2019,
     },
@@ -95,10 +97,10 @@ const sampleProperties = [
     },
     price: 180,
     images: [
-      "https://images.unsplash.com/photo-1592878904844-179d4e638cc3",
-      "https://images.unsplash.com/photo-1598300057519-d56a28952788",
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c64",
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "/placeholder.svg?height=600&width=800&text=Downtown+Loft",
+      "/placeholder.svg?height=300&width=400&text=Loft+Living+Room",
+      "/placeholder.svg?height=300&width=400&text=Loft+Kitchen",
+      "/placeholder.svg?height=300&width=400&text=City+View",
     ],
     amenities: ["WiFi", "Kitchen", "Air conditioning", "Gym", "Elevator"],
     propertyType: "apartment",
@@ -108,7 +110,7 @@ const sampleProperties = [
     host: {
       id: "host3",
       name: "Emma",
-      avatar: "https://randomuser.me/api/portraits/women/65.jpg",
+      avatar: "/placeholder.svg?height=100&width=100&text=Emma",
       isSuperhost: false,
       joinedYear: 2020,
     },
@@ -132,10 +134,10 @@ const sampleProperties = [
     },
     price: 120,
     images: [
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
-      "https://images.unsplash.com/photo-1524492449090-1a3f98e5d6c0",
-      "https://images.unsplash.com/photo-1538688525198-73e7c57fdfc8",
-      "https://images.unsplash.com/photo-1617260309193-06c5f6b6d9a3",
+      "/placeholder.svg?height=600&width=800&text=Treehouse",
+      "/placeholder.svg?height=300&width=400&text=Tree+Interior",
+      "/placeholder.svg?height=300&width=400&text=Forest+View",
+      "/placeholder.svg?height=300&width=400&text=Tree+Deck",
     ],
     amenities: ["WiFi", "Kitchen", "Heating", "Outdoor seating"],
     propertyType: "unique",
@@ -145,7 +147,7 @@ const sampleProperties = [
     host: {
       id: "host4",
       name: "David",
-      avatar: "https://randomuser.me/api/portraits/men/27.jpg",
+      avatar: "/placeholder.svg?height=100&width=100&text=David",
       isSuperhost: true,
       joinedYear: 2017,
     },
@@ -168,10 +170,10 @@ const sampleProperties = [
     },
     price: 320,
     images: [
-      "https://images.unsplash.com/photo-1618221496663-df56e3e220a6",
-      "https://images.unsplash.com/photo-1622675363315-01cf8b69ec7d",
-      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
-      "https://images.unsplash.com/photo-1581972814364-0f3c243dba29",
+      "/placeholder.svg?height=600&width=800&text=Desert+Oasis",
+      "/placeholder.svg?height=300&width=400&text=Desert+Pool",
+      "/placeholder.svg?height=300&width=400&text=Desert+Interior",
+      "/placeholder.svg?height=300&width=400&text=Desert+Sunset",
     ],
     amenities: ["WiFi", "Kitchen", "Pool", "Hot tub", "Air conditioning", "Free parking"],
     propertyType: "house",
@@ -181,7 +183,7 @@ const sampleProperties = [
     host: {
       id: "host5",
       name: "Lisa",
-      avatar: "https://randomuser.me/api/portraits/women/21.jpg",
+      avatar: "/placeholder.svg?height=100&width=100&text=Lisa",
       isSuperhost: false,
       joinedYear: 2021,
     },
@@ -205,10 +207,10 @@ const sampleProperties = [
     },
     price: 280,
     images: [
-      "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
-      "https://images.unsplash.com/photo-1545243424-0ce743321e11",
-      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
-      "https://images.unsplash.com/photo-1572120360610-d971b9b2215a",
+      "/placeholder.svg?height=600&width=800&text=Lake+House",
+      "/placeholder.svg?height=300&width=400&text=Lake+View",
+      "/placeholder.svg?height=300&width=400&text=Lake+Dock",
+      "/placeholder.svg?height=300&width=400&text=Lake+Interior",
     ],
     amenities: ["WiFi", "Kitchen", "Fireplace", "Private dock", "Kayaks", "Free parking"],
     propertyType: "house",
@@ -218,7 +220,7 @@ const sampleProperties = [
     host: {
       id: "host6",
       name: "John",
-      avatar: "https://randomuser.me/api/portraits/men/56.jpg",
+      avatar: "/placeholder.svg?height=100&width=100&text=John",
       isSuperhost: true,
       joinedYear: 2016,
     },
@@ -229,7 +231,264 @@ const sampleProperties = [
     updatedAt: new Date(),
     status: "active",
   },
-  // Remaining 7 properties follow the same structure, let me know if you'd like the rest completed too.
+  // NEW PROPERTIES - 7 additional ones
+  {
+    title: "Historic Brownstone",
+    description:
+      "Charming historic brownstone in Brooklyn with original details and modern updates. Perfect for exploring NYC.",
+    location: {
+      address: "234 Park Slope Avenue",
+      city: "Brooklyn",
+      state: "NY",
+      country: "United States",
+      coordinates: { lat: 40.6782, lng: -73.9442 },
+    },
+    price: 220,
+    images: [
+      "/placeholder.svg?height=600&width=800&text=Historic+Brownstone",
+      "/placeholder.svg?height=300&width=400&text=Brownstone+Interior",
+      "/placeholder.svg?height=300&width=400&text=Historic+Details",
+      "/placeholder.svg?height=300&width=400&text=Brooklyn+Street",
+    ],
+    amenities: ["WiFi", "Kitchen", "Heating", "Washer", "Dryer"],
+    propertyType: "house",
+    guests: 6,
+    bedrooms: 3,
+    bathrooms: 2,
+    host: {
+      id: "host7",
+      name: "Rachel",
+      avatar: "/placeholder.svg?height=100&width=100&text=Rachel",
+      isSuperhost: true,
+      joinedYear: 2019,
+    },
+    rating: 4.7,
+    reviewCount: 134,
+    availability: [],
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    status: "active",
+  },
+  {
+    title: "Luxury Penthouse",
+    description:
+      "Stunning penthouse with panoramic city views, rooftop terrace, and premium amenities in downtown Miami.",
+    location: {
+      address: "567 Biscayne Boulevard",
+      city: "Miami",
+      state: "Florida",
+      country: "United States",
+      coordinates: { lat: 25.7617, lng: -80.1918 },
+    },
+    price: 650,
+    images: [
+      "/placeholder.svg?height=600&width=800&text=Luxury+Penthouse",
+      "/placeholder.svg?height=300&width=400&text=City+Views",
+      "/placeholder.svg?height=300&width=400&text=Rooftop+Terrace",
+      "/placeholder.svg?height=300&width=400&text=Modern+Interior",
+    ],
+    amenities: ["WiFi", "Kitchen", "Pool", "Air conditioning", "Gym", "Elevator", "Hot tub"],
+    propertyType: "apartment",
+    guests: 4,
+    bedrooms: 2,
+    bathrooms: 2,
+    host: {
+      id: "host8",
+      name: "Carlos",
+      avatar: "/placeholder.svg?height=100&width=100&text=Carlos",
+      isSuperhost: true,
+      joinedYear: 2020,
+    },
+    rating: 4.9,
+    reviewCount: 87,
+    availability: [],
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    status: "active",
+  },
+  {
+    title: "Rustic Farmhouse",
+    description: "Authentic farmhouse experience in the Texas Hill Country. Surrounded by vineyards and rolling hills.",
+    location: {
+      address: "890 Ranch Road",
+      city: "Fredericksburg",
+      state: "Texas",
+      country: "United States",
+      coordinates: { lat: 30.2752, lng: -98.8719 },
+    },
+    price: 195,
+    images: [
+      "/placeholder.svg?height=600&width=800&text=Rustic+Farmhouse",
+      "/placeholder.svg?height=300&width=400&text=Farmhouse+Porch",
+      "/placeholder.svg?height=300&width=400&text=Hill+Country",
+      "/placeholder.svg?height=300&width=400&text=Vineyard+Views",
+    ],
+    amenities: ["WiFi", "Kitchen", "Fireplace", "Free parking", "Outdoor seating"],
+    propertyType: "house",
+    guests: 8,
+    bedrooms: 4,
+    bathrooms: 3,
+    host: {
+      id: "host9",
+      name: "Jake",
+      avatar: "/placeholder.svg?height=100&width=100&text=Jake",
+      isSuperhost: false,
+      joinedYear: 2021,
+    },
+    rating: 4.6,
+    reviewCount: 52,
+    availability: [],
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    status: "active",
+  },
+  {
+    title: "Coastal Cottage",
+    description:
+      "Charming coastal cottage just steps from the beach. Perfect for a romantic getaway or small family vacation.",
+    location: {
+      address: "123 Seaside Lane",
+      city: "Carmel-by-the-Sea",
+      state: "California",
+      country: "United States",
+      coordinates: { lat: 36.5553, lng: -121.9233 },
+    },
+    price: 380,
+    images: [
+      "/placeholder.svg?height=600&width=800&text=Coastal+Cottage",
+      "/placeholder.svg?height=300&width=400&text=Beach+Access",
+      "/placeholder.svg?height=300&width=400&text=Cottage+Garden",
+      "/placeholder.svg?height=300&width=400&text=Ocean+Views",
+    ],
+    amenities: ["WiFi", "Kitchen", "Fireplace", "Free parking", "Beach access"],
+    propertyType: "house",
+    guests: 4,
+    bedrooms: 2,
+    bathrooms: 2,
+    host: {
+      id: "host10",
+      name: "Maria",
+      avatar: "/placeholder.svg?height=100&width=100&text=Maria",
+      isSuperhost: true,
+      joinedYear: 2018,
+    },
+    rating: 4.8,
+    reviewCount: 165,
+    availability: [],
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    status: "active",
+  },
+  {
+    title: "Mountain Chalet",
+    description:
+      "Alpine-style chalet with stunning mountain views and ski-in/ski-out access. Perfect for winter sports enthusiasts.",
+    location: {
+      address: "456 Alpine Way",
+      city: "Park City",
+      state: "Utah",
+      country: "United States",
+      coordinates: { lat: 40.6461, lng: -111.498 },
+    },
+    price: 420,
+    images: [
+      "/placeholder.svg?height=600&width=800&text=Mountain+Chalet",
+      "/placeholder.svg?height=300&width=400&text=Ski+Access",
+      "/placeholder.svg?height=300&width=400&text=Alpine+Interior",
+      "/placeholder.svg?height=300&width=400&text=Mountain+Views",
+    ],
+    amenities: ["WiFi", "Kitchen", "Fireplace", "Hot tub", "Ski storage", "Free parking"],
+    propertyType: "chalet",
+    guests: 10,
+    bedrooms: 5,
+    bathrooms: 4,
+    host: {
+      id: "host11",
+      name: "Tom",
+      avatar: "/placeholder.svg?height=100&width=100&text=Tom",
+      isSuperhost: true,
+      joinedYear: 2017,
+    },
+    rating: 4.9,
+    reviewCount: 198,
+    availability: [],
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    status: "active",
+  },
+  {
+    title: "Urban Studio",
+    description: "Modern studio apartment in the heart of Seattle. Perfect for business travelers and urban explorers.",
+    location: {
+      address: "789 Pine Street",
+      city: "Seattle",
+      state: "Washington",
+      country: "United States",
+      coordinates: { lat: 47.6062, lng: -122.3321 },
+    },
+    price: 95,
+    images: [
+      "/placeholder.svg?height=600&width=800&text=Urban+Studio",
+      "/placeholder.svg?height=300&width=400&text=Modern+Design",
+      "/placeholder.svg?height=300&width=400&text=City+Location",
+      "/placeholder.svg?height=300&width=400&text=Compact+Living",
+    ],
+    amenities: ["WiFi", "Kitchen", "Air conditioning", "Elevator", "Gym"],
+    propertyType: "apartment",
+    guests: 2,
+    bedrooms: 1,
+    bathrooms: 1,
+    host: {
+      id: "host12",
+      name: "Alex",
+      avatar: "/placeholder.svg?height=100&width=100&text=Alex",
+      isSuperhost: false,
+      joinedYear: 2022,
+    },
+    rating: 4.5,
+    reviewCount: 43,
+    availability: [],
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    status: "active",
+  },
+  {
+    title: "Vineyard Estate",
+    description:
+      "Luxurious estate surrounded by vineyards in Napa Valley. Includes wine tasting and private chef services.",
+    location: {
+      address: "321 Vineyard Road",
+      city: "Napa",
+      state: "California",
+      country: "United States",
+      coordinates: { lat: 38.2975, lng: -122.2869 },
+    },
+    price: 850,
+    images: [
+      "/placeholder.svg?height=600&width=800&text=Vineyard+Estate",
+      "/placeholder.svg?height=300&width=400&text=Wine+Cellar",
+      "/placeholder.svg?height=300&width=400&text=Estate+Grounds",
+      "/placeholder.svg?height=300&width=400&text=Luxury+Interior",
+    ],
+    amenities: ["WiFi", "Kitchen", "Pool", "Hot tub", "Wine cellar", "Private chef", "Free parking"],
+    propertyType: "villa",
+    guests: 12,
+    bedrooms: 6,
+    bathrooms: 5,
+    host: {
+      id: "host13",
+      name: "Victoria",
+      avatar: "/placeholder.svg?height=100&width=100&text=Victoria",
+      isSuperhost: true,
+      joinedYear: 2016,
+    },
+    rating: 4.9,
+    reviewCount: 76,
+    availability: [],
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    status: "active",
+  },
 ]
 
 async function seedDatabase() {
@@ -242,14 +501,17 @@ async function seedDatabase() {
 
     const db = client.db("hostly")
 
+    // Clear existing properties data ONLY
     console.log("Clearing existing properties data...")
     await db.collection("properties").deleteMany({})
     console.log("✅ Existing properties data cleared")
 
+    // Insert sample properties
     console.log("Inserting sample properties...")
     const result = await db.collection("properties").insertMany(sampleProperties)
     console.log(`✅ ${result.insertedCount} sample properties inserted`)
 
+    // Create indexes for better performance
     console.log("Creating database indexes...")
     await db.collection("properties").createIndex({ "location.city": 1 })
     await db.collection("properties").createIndex({ "location.state": 1 })
@@ -281,4 +543,5 @@ async function seedDatabase() {
   }
 }
 
+// Run the seeding function
 seedDatabase()
